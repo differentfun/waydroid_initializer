@@ -25,9 +25,12 @@ Repository: [differentfun/waydroid_initializer](https://github.com/differentfun/
 1. Clone this repository:
 
 $ git clone https://github.com/differentfun/waydroid_initializer.git
+
 $ cd waydroid_initializer
-$ chmod +x installa_waydroid.sh
-$ ./installa_waydroid.sh
+
+$ chmod +x waydroid_initializer.sh
+
+$ ./waydroid_initializer.sh
 
 - When prompted, choose 1 for installation (pre‑reboot)
 - Reboot your system
