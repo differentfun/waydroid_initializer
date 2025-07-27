@@ -10,7 +10,8 @@ Repository: [differentfun/waydroid_initializer](https://github.com/differentfun/
 - Installs required packages and dependencies  
 - Adds the official Waydroid repository  
 - Installs the Liquorix kernel (6.2.14) compatible with MX Linux (from later kernels they senselessly removed the 'binder' module, so goodbye to Waydroid.) 
-- Configures UFW to enable network forwarding (DHCP and DNS ports)  
+- Configures UFW to enable network forwarding (DHCP and DNS ports)
+- Download and compile Weston 9 (to get Weston Launch)
 - Provides a two-stage installation process (pre‑reboot install and post‑reboot init)  
 - Includes manual launch instructions for running Waydroid via Weston
 
