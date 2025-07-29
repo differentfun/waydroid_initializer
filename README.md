@@ -23,13 +23,18 @@ Repository: [differentfun/waydroid_initializer](https://github.com/differentfun/
 
 ## 🚀 How to Use
 
-$ `git clone https://github.com/differentfun/waydroid_initializer.git`
-
-$ `cd waydroid_initializer`
-
-$ `chmod +x waydroid_initializer.sh`
-
-$ `./waydroid_initializer.sh`
+```bash
+git clone https://github.com/differentfun/waydroid_initializer.git
+```
+```bash
+cd waydroid_initializer
+```
+```bash
+chmod +x waydroid_initializer.sh
+```
+```bash
+./waydroid_initializer.sh
+```
 
 When prompted, choose 1 for installation (pre‑reboot).
 Reboot your system.
@@ -37,20 +42,27 @@ Run the script again and choose 2 for Waydroid initialization.
 Optionally, choose 3 in the script to display manual run instructions.
 
 After installing the Liquorix kernel, reboot and verify with:
-$ `uname -r`
+```bash
+uname -r
+```
 
 Weston is used as the minimal Wayland compositor to display Android UI.
 To launch Waydroid manually, follow instructions shown by selecting option 3, or use:
 
-$ `weston &`
+```bash
+weston &
+```
 
 From Weston open the terminal and: 
-
-$ `sudo waydroid container start &`
-
-$ `sudo waydroid session start &`
-
-$ `waydroid show-full-ui`
+```bash
+sudo waydroid container start &
+```
+```bash
+sudo waydroid session start &
+```
+```bash
+waydroid show-full-ui
+```
 
 ## ✅ Tested On
 MX Linux 23.6 (64‑bit)
