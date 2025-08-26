@@ -55,6 +55,9 @@ weston &
 
 From Weston open the terminal and: 
 ```bash
+sudo true
+```
+```bash
 sudo waydroid container start &
 ```
 ```bash
