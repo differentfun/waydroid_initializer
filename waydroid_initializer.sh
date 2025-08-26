@@ -20,7 +20,7 @@ phase1_install() {
 
     echo "==> Step 3: Installing Waydroid and Liquorix kernel"
     sudo apt update
-    sudo apt install -y waydroid linux-image-6.2.14-1-liquorix-amd64 linux-headers-6.2.14-1-liquorix-amd64
+    sudo apt install -y waydroid=1.5.0 linux-image-6.2.14-1-liquorix-amd64 linux-headers-6.2.14-1-liquorix-amd64
 
     echo "==> INSTALLATION COMPLETE (PHASE 1)"
     echo "Next: compile Weston by selecting option 2."
