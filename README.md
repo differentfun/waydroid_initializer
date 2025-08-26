@@ -60,9 +60,7 @@ sudo true
 ```bash
 sudo waydroid container start &
 ```
-```bash
-sudo waydroid session start &
-```
+Now to launch a session, it will be automatically launched (On last waydroid version) with:
 ```bash
 waydroid show-full-ui
 ```
